@@ -1,5 +1,4 @@
 import { ArrowRight, HeartHandshake, House, ShieldCheck, Sparkles } from "lucide-react";
-import { assets } from "../assets";
 import ButtonLink from "../components/ui/ButtonLink";
 import SectionHeading from "../components/ui/SectionHeading";
 import ServiceCard from "../components/ui/ServiceCard";
@@ -44,7 +43,7 @@ export default function HomePage() {
       <section className="about-preview section section--lavender">
         <div className="page-width about-preview__grid">
           <div className="about-preview__symbol-wrap">
-            <img src={assets.brand.symbolWhite} alt="" className="about-preview__symbol" />
+            <img src="/images/brand/lunara-symbol-white.png" alt="" className="about-preview__symbol" />
           </div>
           <div>
             <SectionHeading eyebrow="Sobre Lunara" title="Un espacio seguro para aprender, conversar y cuidarte" />

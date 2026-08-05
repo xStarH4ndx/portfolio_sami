@@ -45,7 +45,7 @@ export default function Footer() {
       <div className="site-footer__bottom">
         <div className="page-width">
           <span>© {new Date().getFullYear()} Lunara. Todos los derechos reservados.</span>
-          <span>Contenido informativo: no reemplaza una evaluación profesional ni atención de urgencia.</span>
+          {/* <span>Contenido informativo: no reemplaza una evaluación profesional ni atención de urgencia.</span> */}
         </div>
       </div>
     </footer>
